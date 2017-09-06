@@ -1,2 +1,2 @@
 # arp-detect
-use arping to detect alive hosts
+use arping&scapy to detect alive hosts
