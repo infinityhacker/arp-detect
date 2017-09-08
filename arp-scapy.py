@@ -4,7 +4,7 @@ import logging
 import sys
 import subprocess
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
-from scapy.all import *
+from scapy._all import *
 
 if len(sys.argv[1:])!=1:
     print "Usage ./arp_detect.py [interface]"
